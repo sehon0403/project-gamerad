@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=4 uid="uid://cbe8bhejasswt"]
+[gd_scene load_steps=5 format=4 uid="uid://cbe8bhejasswt"]
 
 [ext_resource type="Texture2D" uid="uid://cvyikh3jbi5rm" path="res://Art/Tilemap/Serene_Village_16x16.png" id="1_nxrqf"]
+[ext_resource type="PackedScene" uid="uid://cu7el5n60x775" path="res://scenes/player.tscn" id="2_hj615"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hj615"]
 texture = ExtResource("1_nxrqf")
@@ -758,3 +759,8 @@ tile_map_data = PackedByteArray("AAAAAAAAAAADAAAAAAABAAAAAAAJAAoAAAABAAEAAAAJAAs
 tile_set = SubResource("TileSet_p5beq")
 use_kinematic_bodies = true
 collision_visibility_mode = 1
+
+[node name="Player" parent="." instance=ExtResource("2_hj615")]
+position = Vector2(23, 39)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
