@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://xggp7dihk0mg"
+=======
+uid="uid://bif3te2ek3il4"
+>>>>>>> Stashed changes
 path="res://.godot/imported/Serene_Village_16x16.png-2914fb99197160d2bad5a3ff9b675977.ctex"
 metadata={
 "vram_texture": false
